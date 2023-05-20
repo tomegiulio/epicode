@@ -1,0 +1,435 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    color: #000;
+    line-height: 1.8;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    box-shadow: #d3d3d3;
+    justify-content: space-between;
+}
+
+.menuButtom,
+#logo {
+    padding: 10px;
+}
+
+
+.menu a {
+    font-size: 1rem;
+}
+
+.menu {
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    transform: translateY(-400%);
+    transition: transform 0.2s;
+}
+
+.showMenu {
+    transform: translateY(0);
+}
+
+
+/* MAIN */
+
+/*titolo*/
+.titolo {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    align-items: center;
+   
+    align-items: center;
+}
+
+.titolo div {
+    padding: 0px;
+    color: white;
+    padding: 10px;
+}
+
+.titolo h1 {
+    font-size: 1.8em;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+}
+
+.titolo p {
+    font-size: 1.4em;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+}
+
+.titolo button {
+    color: white;
+    font-size: 1.9rem;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 0%, rgba(57, 47, 122, 1) 78%);
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 80px;
+}
+
+
+
+/*testo1*/
+
+
+.testo div {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.testo h2 {
+    font-size: 1.6em;
+    padding: 5px;
+}
+
+.testo h3 {
+    font-size: 1.4em;
+    padding: 5px;
+}
+
+.testo i {
+    color: #e42424;
+    padding: 5px;
+}
+
+.testo p {
+    padding: 5px;
+}
+
+.testo2 div {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.testo2 h2 {
+    font-size: 1.6em;
+    padding: 5px;
+}
+
+.testo2 h3 {
+    font-size: 1.4em;
+    padding: 5px;
+}
+
+.testo2 i {
+    color: #e42424;
+    padding: 5px;
+}
+
+.testo2 p {
+    padding: 5px;
+}
+
+.testo2 img {
+    width: 90%;
+}
+
+/*media tablet*/
+/*media pc*/
+
+/*section*/
+.section {
+    background-color: #0c0633;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+.section button {
+    color: white;
+    font-size: 1.9rem;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 0%, rgba(57, 47, 122, 1) 78%);
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.section h1 {
+    font-size: 1.6rem;
+}
+
+.section div {
+    padding: 5px
+}
+
+
+
+
+
+/* FOOTER */
+footer {background-color: rgb(238, 238, 238);
+    text-align: center;
+}
+
+footer div {
+   
+}
+
+footer button {
+    color: white;
+    font-size: 1.9rem;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 0%, rgba(57, 47, 122, 1) 78%);
+    padding: 7px;
+    border-radius: 3px;
+    
+    
+    text-align: center;
+}
+
+footer input {
+    
+    height: 25px;
+    
+}
+
+footer div {
+    
+}
+
+footer h3 {
+    font-size: 1.4em;
+}
+
+footer a {
+    font-size: 1.4em;
+    color: #000;
+}
+
+footer i {
+    color: red;
+}
+
+
+
+/*contatti*/
+#contattiH1 {
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.contattiTesto {
+    text-align: center;
+}
+
+.contattiForm div {
+    width: 100%;
+}
+
+.contattiForm input {
+    width: 70%;
+    height: 30px;
+    margin: 10px;
+}
+
+.contattiForm button {
+    color: white;
+    font-size: 1.9rem;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 0%, rgba(57, 47, 122, 1) 78%);
+    padding: 7px;
+    border-radius: 3px;
+    width: 50%;
+    margin: 10px;
+
+}
+
+.contattiLink h2 {
+    font-size: 1.4em;
+}
+
+.contattiLink a {
+    color: #000;
+    display: block;
+}
+
+
+.contattiLink div {
+    text-align: center;
+    padding: 15px;
+}
+
+
+/*chi siamo*/
+.chisiamoTitolo h1 {
+    font-size: 1.6em;
+    margin-top: 50px;
+}
+
+.chisiamoTitolo p {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.chisiamoTitolo {
+    text-align: center;
+}
+
+.chisiamoMain div {
+    width: 100%;
+    text-align: center;
+}
+
+.imgChisiamo {
+    width: 90%;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.chisiamoMain p {
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#tableH1 {
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+table {
+    text-align: justify;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+thead {
+    background-color: #d3d3d3;
+}
+
+tfoot {
+    background-color: #d3d3d3;
+}
+
+th {
+    font-weight: bold;
+}
+
+/*tablet*/
+@media(min-width:768px) {
+  
+    .menu {
+        transform: translateY(0);
+        position: initial;
+        background-color: transparent;
+    }
+
+    header li {
+        display: inline;
+        padding: 20px;
+    }
+
+    header ul {
+        text-align: end;
+    }
+
+    .menuButtom {
+        display: none;
+    }
+
+    #buttonheader {
+        color: white;
+
+        background: rgb(108, 193, 226);
+        background: linear-gradient(90deg, rgba(108, 193, 226, 1) 0%, rgba(57, 47, 122, 1) 78%);
+        padding: 15px;
+        border-radius: 3px;
+    }
+
+    .menuButtom {
+        display: none;
+    }
+
+    .titolo button{margin-bottom: 80px;}
+    .titolo div{padding: 40px;}
+
+    .testo {
+       
+        display:flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+    }
+
+    #h2100{width: 100%;}
+
+    .titolo h1 {
+        font-size: 1.8em;
+        width: 90%;
+        text-align: center;
+    }
+    
+    .titolo p {
+        font-size: 1.4em;
+        width: 90%;
+        text-align: center;
+    }
+
+    .testo2 {
+       
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+
+    .testo2 div {
+        display: inline;
+        width: 40%;
+        
+    }
+    
+    .immagineleft div{ width: 40%;
+        justify-items: center;
+        justify-content: center;
+
+    
+    
+}
+.footerFlex{display: flex;
+justify-content: space-around;
+padding-bottom: 20px;}
+
+
+
+
+}
+/*pc*/

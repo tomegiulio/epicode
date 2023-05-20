@@ -1,0 +1,52 @@
+<form (ngSubmit)="submit()" #form="ngForm">
+  <!--stiamo lavorando con un td-form, assegnando a un attributo #f il valore ngForm-->
+  <div ngModelGroup="userInfo" id="userInfo" #userGroup="ngModelGroup">
+    <!--per tutti i dati che inseriremo in questo form, che troverà di là un oggetto-->
+    <div class="form-group">
+      <label for="username">Nome</label>
+      <input type="text" id="username" [ngModel]="userForm.defUsername" name="defUsername" class="form-control"
+        required #username="ngModel">
+      <!--ngModel senza tonde perché è one-way data binding da html a ts-->
+      <p *ngIf="username.invalid && username.touched"><strong>Questo campo è obbligatorio</strong></p>
+    </div>
+
+    <div class="form-group">
+      <label for="alterego">Alter Ego</label>
+      <input type="text" id="alterego" [ngModel]="userForm.alterego" name="alterego" class="form-control" required #alterego="ngModel">
+    </div>
+    <p *ngIf="alterego.invalid && alterego.touched"><strong>Questo campo è obbligatorio</strong></p>
+    <div class="form-group">
+      <label for="potere">
+      Super Potere
+      </label>
+      <select id="potere" [ngModel]="userForm.potere" name="potere" class="form-select">
+        <option value="Forza">Super Forza</option>
+        <option value="Velocità">Super Velocità</option>
+        <option value="Intelligenza">Super Intelligenza</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="pianeta">Pianeta</label>
+      <input type="text" id="pianeta" [ngModel]="userForm.pianeta" name="pianeta" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="nemico">Nemico</label>
+      <input type="text" id="nemico" [ngModel]="userForm.nemico" name="nemico" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary m-2" [disabled]="form.invalid">Invia</button>
+    <!--dove f è #f l'intero form, e finché non è attivato tutto il form non si attiva il button-->
+  </div>
+</form>
+<hr>
+   <!-- <div class="container">
+        <div class="row">
+            <div *ngIf="user" class="col">
+                <h2>I tuoi dati</h2>
+                <p>Username: {{ user.defUsername}}</p>
+                <p>Email: {{ user.alterego }}</p>
+                <p>Domanda segreta: {{ user.potere }}</p>
+
+            </div>
+        </div>
+    </div>
+-->

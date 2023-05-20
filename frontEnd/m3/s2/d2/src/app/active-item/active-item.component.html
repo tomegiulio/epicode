@@ -1,0 +1,8 @@
+<ul>
+  {{getData()}}
+  <li *ngFor="let post of activePosts">
+    {{post.id}}
+    {{post.title}}
+    {{post.content}}
+  </li>
+</ul>

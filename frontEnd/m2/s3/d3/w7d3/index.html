@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="timer"></h1>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+      var timer = document.getElementById("timer");
+
+function time(){
+    let sec;
+    if(sessionStorage.getItem("time")){
+        sec = Number(sessionStorage.getItem("time"));
+    }else{
+        sec = 0
+    }
+    setInterval(function(){
+        sec += 1;
+        timer.innerHTML = ('Tempo:' +sec)
+        sessionStorage.setItem("time", sec);
+    },1000)
+}
+
+
+time();
+
+
+
+
+
+    </script>
+   
+    
+</body>
+</html>

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+html,
+body #fullheight {
+    min-height: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    
+}
+
+form input{
+    color: white;
+    
+   height: 200px;
+    width: 100%;
+    font-size: 100px;
+    
+    text-align: right;
+    background: black;
+    border: none;
+}
+
+
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    
+    
+}
+
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 100px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    align-self: center;
+    justify-self: center;
+    cursor: pointer;
+    border:3px solid black;
+    ;
+
+}
+
+.clear {
+    grid-column: span 3;
+    border-radius: 135px
+    ;
+}
+
+.number0 {
+    grid-column: span 2;
+    border-radius: 135px;
+}
+
+.item1 {
+    background-color: #a5a5a5;
+    color: black;
+}
+
+.item2 {
+    background-color: #ff9f0a;
+    color: white;
+}
+
+.item3 {
+    background-color: #343434;
+    color: white;
+}
+
+
+@media screen and (max-width:400px){button{font-size: 70px;
+
+    ;}.buttons{height: 40%;}}
+
+
+@media screen and (min-width:600px){button{border-radius:135px ;
+
+;}.buttons{height: 650px;}}

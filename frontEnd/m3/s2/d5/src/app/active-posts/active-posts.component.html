@@ -1,0 +1,5 @@
+<div *ngFor="let post of posts">
+  <app-post-card [p]="post" (eliminaEvent)="elimina(post.id)">
+    <button class="btn btn-info" (click)="disattiva(post.id)">Disattiva</button>
+  </app-post-card>
+</div>

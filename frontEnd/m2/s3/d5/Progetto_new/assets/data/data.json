@@ -1,0 +1,34 @@
+{
+  "elenco": [
+    {
+      "nome": "giulio",
+      "cognome": "tome'",
+      "id": 1
+    },
+    {
+      "nome": "gdfg",
+      "cognome": "fdsf",
+      "id": 4
+    },
+    {
+      "nome": "wadsd",
+      "cognome": "dsad",
+      "id": 5
+    },
+    {
+      "nome": "fdsf",
+      "cognome": "fdsf",
+      "id": 6
+    },
+    {
+      "nome": "asd",
+      "cognome": "tome",
+      "id": 7
+    },
+    {
+      "nome": "gdfg",
+      "cognome": "tome",
+      "id": 8
+    }
+  ]
+}

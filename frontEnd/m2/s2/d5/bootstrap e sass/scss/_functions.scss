@@ -1,0 +1,13 @@
+@function text-color($color: "default"){
+    @if ($color=="red"){
+        @return red
+    }
+    @if ($color=="black"){
+        @return black
+    }
+    @if ($color=="white"){
+        @return white
+    }
+    
+    @return black;
+}

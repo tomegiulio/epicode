@@ -1,0 +1,6 @@
+<h1 class="text-center"><span appColora>benvenuto</span>nella home page</h1>
+<div class="text-center">
+  <span class="btn btn-primary w-25 p-2 m-2" [routerLink]="['/', 'active']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Vai ai post attivi</span>
+  <span class="btn btn-primary w-25 p-2 m-2"  [routerLink]="['/active/false']" routerLinkActive="active"  [routerLinkActiveOptions]="{exact: true}" >Vai ai post non attivi</span>
+</div>
+

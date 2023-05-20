@@ -1,0 +1,116 @@
+/* IMPOSTAZIONI GENERALI */
+body{font-family: 'Poppins', sans-serif;}
+body {
+    background-image: url(../img/sfondo.png);}
+body{font-size: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+
+
+
+/* HEADER */
+
+
+header{text-align: center;
+
+
+
+height: 75vh;
+
+
+max-width: 60%;
+margin: 0 auto;
+margin-top: 40px;
+margin-bottom: 100px;
+background-color: #4682B4;
+
+}
+.container img{padding: 10px}
+
+header h3{color: white;
+  font-size: 1.5em;
+  margin: 0.67em 0;
+}
+
+.grey{color: grey}
+.purple{color:#EE30A7}
+.tag{background-color:#F5F5F5;
+border-radius: 10px;
+}
+ul>li {padding: 7px}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+ .inline{
+  font-size: 1.5em;
+  margin: 0.67em 0;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+/* MAIN */
+main{text-align: center;
+
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: white
+}
+table{margin-left: auto;
+margin-right: auto;}
+caption{font-weight: bold;}
+thead{background-color:#009ACD;
+;
+color: white}
+.tgrey{background-color: #F5F5F5}
+.greybox{background-color: #F5F5F5;
+padding: 10px;
+margin: 40px}
+iframe{border-radius: 20px}
+.blue{color:#009ACD;
+}
+#iscrizione{background-color:#009ACD;
+font-weight: bold;
+color: white}
+.data{text-align: right;}
+
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer{text-align: center;
+max-width: 80%;
+margin: 0 auto;
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: #008080;
+margin-top: 40px;
+margin-bottom: 20px;
+color: white}
+@media(max-width: 700px) {.container img{padding: 10px;
+weight:80px;
+height:80px }
+
+}
+@media(max-width: 470px) {.container img{padding: 10px;
+weight:40px;
+height:40px }
+
+}
+@media(max-width: 260px) {.container img{padding: 10px;
+weight:20px;
+height:20px }
+
+}

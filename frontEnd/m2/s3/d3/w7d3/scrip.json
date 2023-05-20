@@ -1,0 +1,42 @@
+{"utenti":[{
+    "id": 1,
+    "username": "Tulio",
+    "age": 26,
+    "registrationDate": 2022,
+    "email": "babababa@gmail.com"
+},
+{
+    "id": 2,
+    "username": "Ulio",
+    "age": 21,
+    "registrationDate": 2018,
+    "email": "dadada@gmail.com"
+},
+{
+    "id": 3,
+    "username": "giulio",
+    "age": 22,
+    "registrationDate": 2016,
+    "email": "xdxdxdxd@gmail.com"
+},
+{
+    "id": 4,
+    "username": "Gio",
+    "age": 19,
+    "registrationDate": 2022,
+    "email": "giioo@gmail.com"
+},
+{
+    "id": 5,
+    "username": "Ale",
+    "age": 18,
+    "registrationDate": 2020,
+    "email": "ale@gmail.com"
+},
+{
+    "id": 6,
+    "username": "Detergente",
+    "age": 17,
+    "registrationDate": 2022,
+    "email": "detergente@gmail.com"
+}]}

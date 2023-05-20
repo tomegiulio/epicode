@@ -1,0 +1,44 @@
+/* IMPOSTAZIONI GENERALI */
+
+/* HEADER */
+header{text-align: center;
+}
+header{background-color: lightblue}
+h1{color: white}
+.blue{color: blue }
+.blue{background-color: white;
+display: inline-block;}
+.bluehr{border-color: blue}
+.esterno{width: 100%;
+height: 0%;
+padding-bottom: 50%;
+}
+h1{font-size:100%; font-weight: normal;}
+h1 {margin:0;padding:0;}
+
+
+/* MAIN */
+.pic{padding: 5%px;
+border: solid lightgrey}
+.info{text-align: center;}
+.infopersonali{color: lightblue;
+text-align: center;}
+section b{font-weight: bold;}
+address a{color: red}
+blockquote {background-color: lightgrey;
+border-radius: 10px;
+text-align: center;
+}
+.centro{text-align:center;}
+.bold{font-weight: bold;}ù
+mark{}
+  .linkrosso{color:red}
+
+
+/* FOOTER */
+footer{text-align: center;
+background-color: black;
+color: lightgrey}
+kbd{color: yellow}
+p > small{color: grey}
+#hrnera{border-color: black}

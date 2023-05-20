@@ -1,0 +1,65 @@
+.menucontainer{
+    margin-top: 40px;
+}
+#btnOpen{
+    display: flex;
+    width: 4%;
+    height: 4%;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+     margin-bottom: 80px;
+     display: none;
+     
+}
+
+.menu a{
+    background-color: aqua;
+    color: black;
+    width: 15%;
+    padding: 5px;
+}
+h1{
+text-align: center;
+font-size: 40px;
+color: greenyellow;
+}
+.btnH1{
+    text-align: center;
+}
+
+
+.displayBlock{
+    display: flex;
+}
+.colorRed{
+    color:  red;
+}
+.upperCase{
+    text-transform: uppercase;
+}
+.bigger{
+    font-size: 60px;
+}
+.hidden{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+.colorBlack{
+    color: black;
+}
+ul li{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+.lineThrought{
+    text-decoration: line-through;
+}

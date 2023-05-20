@@ -1,0 +1,80 @@
+{
+  "posts": [
+    {
+      "id": 11,
+      "title": "et ea vero quia laudantium autem",
+      "body": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi",
+      "active": false,
+      "autor": "ulio",
+      "type": "news",
+      "email": "infdnsd@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": 12,
+      "title": "in quibusdam tempore odit est dolorem",
+      "body": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio",
+      "active": false,
+      "autor": "ulio",
+      "type": "politic",
+      "email": "infdnsd@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": 13,
+      "title": "dolorum ut in voluptas mollitia et saepe quo animi",
+      "body": "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam",
+      "active": true,
+      "autor": "ulio",
+      "type": "news",
+      "email": "infdnsd@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": 14,
+      "title": "voluptatem eligendi optio",
+      "body": "fuga et accusamus dolorum perferendis illo voluptas\nnon doloremque neque facere\nad qui dolorum molestiae beatae\nsed aut voluptas totam sit illum",
+      "active": true,
+      "autor": "ulio",
+      "type": "news",
+      "email": "infdnsd@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": 15,
+      "title": "eveniet quod temporibus",
+      "body": "reprehenderit quos placeat\nvelit minima officia dolores impedit repudiandae molestiae nam\nvoluptas recusandae quis delectus\nofficiis harum fugiat vitae",
+      "active": false,
+      "autor": "ulio",
+      "type": "news",
+      "email": "infdnsd@gmail.com",
+      "role": "admin"
+    }
+  ],
+  "users": [
+    {
+      "id":0,
+      "name": "ulio",
+      "email": "gt@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "mauri",
+      "email": "mv@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": 3,
+      "name": "france",
+      "email": "fl@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": 4,
+      "name": "bobo",
+      "email": "bb@gmail.com",
+      "role": "user"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "utenti": [
+    {
+      "nome": "g",
+      "cognome": "t",
+      "email": "gt@gmail.com",
+      "password": "gt123",
+      "id": 1
+    }
+  ],
+  "articoli": [
+    {
+      "idArticolo": 1,
+      "nome": "2022 Apple iPad Air (Wi-Fi, 64GB) - Grigio siderale (5a Generazione)",
+      "prezzo": 699,
+      "location": "assets/img/tabletapple.jpg",
+      "descrizione": "Display Liquid Retina da 10,9 con True Tone; ampia gamma cromatica P3 e rivestimento antiriflesso; Chip Apple M1 con Neural Engine; Grandangolo da 12MP; Fotocamera frontale da 12MP con ultra grandangolo e Inquadratura automatica; Fino a 256GB di archiviazione; Disponibile nei colori blu, viola, rosa, galassia e grigio siderale; Altoparlanti stereo in orizzontale; Touch ID per l’autenticazione sicura e Apple Pay; Un giorno intero di batteria; Wi-Fi 6 e reti cellulari 5G"
+    },
+    {
+      "idArticolo": 2,
+      "nome": "Xiaomi Redmi Note 10 Pro Smartphone RAM 8 GB ROM 128 GB 6.67'' 120Hz AMOLED DotDisplay 108MP grandangolare Cámara 5020mAh (typ) NFC Dual SIM Card Gris",
+      "prezzo": 232,
+      "location": "assets/img/smartphonexiomi.jpg",
+      "descrizione": "Fotocamera da 108 MP - La fotocamera principale da 108 MP consente di scattare foto estremamente nitide. Ingrandisci la tua foto per scoprire dettagli divertenti e inaspettati."
+    },
+    {
+      "idArticolo": 3,
+      "nome": "Apple Watch SE (2ª gen.) (GPS, 40mm) Smartwatch con cassa in alluminio color mezzanotte con Cinturino Sport color mezzanotte - Regular. Fitness tracker, monitoraggio del sonno, Rilevamento incidenti",
+      "prezzo": 289,
+      "location": "assets/img/smartwatch.jpg",
+      "descrizione": "Rispondi a chiamate e messaggi direttamente dall’orologio."
+    },
+    {
+      "idArticolo": 4,
+      "nome": "Cuffie Bluetooth, Auricolari Bluetooth 5.2 con Bassi Icmmersivi, Cuffie Wireless Mini Incorporato HD Mic, IP7 Impermeabili Cuffiette Bluetooth, 35H Cuffie Senza Fili con Display LED, Nero (2022) [Classe di efficienza energetica A+++]",
+      "prezzo": 33,
+      "location": "assets/img/cuffie.jpg",
+      "descrizione": "Tecnologia Bluetoth 5.2: Gli cuffie bluetooth sono dotati di un chip Bluetoth 5.2 per garantire una connessione più stabile, La portata massima di trasmissione è fino a 49 piedi/15 m."
+    },
+    {
+      "idArticolo": 5,
+      "nome": "Samsung TV UE55AU7190UXZT, Smart TV 55'' Serie AU7100, Modello AU7190, Crystal UHD 4K, Compatibile con Alexa, Grey, 2021, DVB-T2 [Escl. Amazon][Efficienza energetica classe G] [Classe di efficienza energetica G]",
+      "prezzo": 399,
+      "location": "assets/img/televisore.jpg",
+      "descrizione": "La tecnologia dell'immagine: la tecnologia Dynamic Crystal Color e il processore Crystal 4K ottimizzano colori e contrasto per una qualità dell'immagine eccezionale."
+    },
+    {
+      "idArticolo": 6,
+      "nome": "HP - PC 27f Monitor 4K, Schermo IPS UHD 27”, AMD FreeSync, Tempo Risposta 5ms, Overdrive, Risoluzione 3840 x 2160, Micro-Edge, Antiriflesso, DiplayPort, HDMI, Altezza/Inclinazione Regolabili, Nero",
+      "prezzo": 368,
+      "location": "assets/img/schermo.jpg",
+      "descrizione": "Schermo: Display 27'' 4K UHD 3840 x 2160 a 60 Hz, IPS con retroilluminazione LED, Antiriflesso, Borderless"
+    },
+    {
+      "idArticolo": 7,
+      "nome": "Mouse Bluetooth, Inphic mouse wireless Bluetooth ricaricabile silenzioso multi-dispositivo (Tri-Mode: BT 5.0/4.0 + 2.4G), mouse ergonomico portatile 1600 DPI per PC laptop, Android, Mac OS, nero",
+      "prezzo": 18,
+      "location": "assets/img/mouse.jpg",
+      "descrizione": "Marchio: INPHIC"
+    },
+    {
+      "idArticolo": 8,
+      "nome": "Logitech ERGO K860 Wireless Split Keyboard - Tastiera Ergonomica Wireless, Poggiapolsi, Connettività Bluetooth e USB, Compatibile con Windows e Mac, Layout Italiano ‎QWERTY - Grigio",
+      "prezzo": 90,
+      "location": "assets/img/tastiera.jpg",
+      "descrizione": "Marchio: Logitech"
+    },
+    {
+      "idArticolo": 9,
+      "nome": "PS5 Standard + Horizon Forbidden West",
+      "prezzo": 609,
+      "location": "assets/img/playstation.jpg",
+      "descrizione": "Copri un'esperienza di gioco più profonda con supporto per feedback tattile, trigger adattivi e tecnologia audio 3DRay Tracing - Immergiti in mondi che offrono un livello di realismo senza precedenti, con ogni raggio di luce simulato individualmente, creando effetti di ombre e riflessi ultra realistici sui giochi PS5 compatibili."
+    },
+    {
+      "idArticolo": 10,
+      "nome": "EXTREMEBIT PC Computer Desktop Assemblato Intel i7-12700 Ram 16GB SSD 500GB Windows 10 Pro",
+      "prezzo": 770,
+      "location": "assets/img/pc.jpg",
+      "descrizione": "Usi specifici del prodotto: Desktop."
+    }
+  ],
+  "carrello": [
+    {
+      "0": {
+        "0": {
+          "0": {
+            "0": {
+              "0": {
+                "idUtente": "g",
+                "arrayArticoli": [],
+                "id": 1
+              },
+              "1": {
+                "location": "assets/img/cuffie.jpg",
+                "nome": "Cuffie Bluetooth, Auricolari Bluetooth 5.2 con Bassi Icmmersivi, Cuffie Wireless Mini Incorporato HD Mic, IP7 Impermeabili Cuffiette Bluetooth, 35H Cuffie Senza Fili con Display LED, Nero (2022) [Classe di efficienza energetica A+++]",
+                "prezzo": "33"
+              },
+              "id": 1
+            },
+            "1": {
+              "location": "assets/img/cuffie.jpg",
+              "nome": "Cuffie Bluetooth, Auricolari Bluetooth 5.2 con Bassi Icmmersivi, Cuffie Wireless Mini Incorporato HD Mic, IP7 Impermeabili Cuffiette Bluetooth, 35H Cuffie Senza Fili con Display LED, Nero (2022) [Classe di efficienza energetica A+++]",
+              "prezzo": "33"
+            },
+            "id": 1
+          },
+          "1": {
+            "location": "assets/img/cuffie.jpg",
+            "nome": "Cuffie Bluetooth, Auricolari Bluetooth 5.2 con Bassi Icmmersivi, Cuffie Wireless Mini Incorporato HD Mic, IP7 Impermeabili Cuffiette Bluetooth, 35H Cuffie Senza Fili con Display LED, Nero (2022) [Classe di efficienza energetica A+++]",
+            "prezzo": "33"
+          },
+          "id": 1
+        },
+        "1": {
+          "location": "assets/img/smartphonexiomi.jpg",
+          "nome": "Xiaomi Redmi Note 10 Pro Smartphone RAM 8 GB ROM 128 GB 6.67'' 120Hz AMOLED DotDisplay 108MP grandangolare Cámara 5020mAh (typ) NFC Dual SIM Card Gris",
+          "prezzo": "232"
+        },
+        "id": 1
+      },
+      "1": {
+        "location": "assets/img/smartphonexiomi.jpg",
+        "nome": "Xiaomi Redmi Note 10 Pro Smartphone RAM 8 GB ROM 128 GB 6.67'' 120Hz AMOLED DotDisplay 108MP grandangolare Cámara 5020mAh (typ) NFC Dual SIM Card Gris",
+        "prezzo": "232"
+      },
+      "id": 1
+    }
+  ]
+}

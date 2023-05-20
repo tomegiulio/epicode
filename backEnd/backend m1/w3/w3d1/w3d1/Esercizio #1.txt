@@ -1,0 +1,123 @@
+Estrarre il nome e il cognome dei clienti nati nel 1982
+
+SELECT 
+ Nome, 
+ Cognome
+FROM  Clienti
+WHERE YEAR(DataNascita)=1982;  
+
+Estrarre il numero di fatture con iva al 20%?
+
+SELECT 
+ COUNT(*) AS ConteggioFatture
+FROM   Fatture
+WHERE  Iva = 20;
+ 
+
+Riportare il numero di fatture e la somma dei relativi importi divisi per anno di fatturazione.
+
+SELECT 
+   YEAR(DataFattura) AS Anno,
+   COUNT(*) AS NumeroFatture,
+   SUM(Importo) AS TotaleImporto
+FROM Fatture
+GROUP BY YEAR(DataFattura);
+ 
+
+Estrarre i prodotti attivati nel 2017 e che sono in produzione oppure in commercio
+
+SELECT *
+FROM  Prodotti
+WHERE  
+  YEAR(DataAttivazione)=2017  
+  AND ( InProduzione = 1
+        OR InCommercio = 1);
+ 
+
+6) Considerando soltanto le fatture con iva al 20 per cento, estrarre il numero di fatture per ogni anno
+
+SELECT   
+   YEAR(DataFattura) AS Anno,
+   COUNT(*) AS NumeroFatture
+FROM     Fatture
+WHERE    Iva=20
+GROUP BY YEAR(DataFattura);
+ 
+
+Estrarre gli anni in cui sono state registrate più di 2 fatture con tipologia ‘A’
+
+
+SELECT  
+   YEAR(DataFattura) AS Anno,
+   COUNT(*) AS NumeroFatture
+FROM     Fatture
+WHERE    Tipologia= 'A'
+GROUP BY YEAR(DataFattura)
+HAVING   COUNT(*) > 2;
+ 
+
+Riportare l’elenco delle fatture (numero, importo, iva e data) con in aggiunta il nome del fornitore
+
+
+SELECT
+   Fa.NumeroFattura,
+   Fa.Importo,
+   Fa.iva,  
+   Fa.DataFattura,
+   Fo.Denominazione 
+      AS DenominazioneFornitori
+FROM Fatture as Fa
+LEFT JOIN Fornitori as Fo
+ ON Fa.NumeroFornitore = 
+      Fo.NumeroFornitore;
+ 
+
+Estrarre il totale degli importi delle fatture divisi per residenza dei clienti
+
+SELECT 
+  c.RegioneResidenza,
+  SUM(f.Importo) AS TotaleImporto
+FROM     Fatture AS f
+INNER JOIN Clienti AS c
+  ON f.IdCliente = c.IdCliente
+GROUP BY 
+  c.RegioneResidenza;
+ 
+
+Estrarre il numero dei clienti nati nel 1980 che hanno almeno una fattura superiore a 50 euro
+
+SELECT  
+   COUNT(DISTINCT C.NumeroCliente) 
+                  AS NumeroClienti
+FROM  Clienti AS C
+INNER JOIN Fatture AS F
+  ON C.NumeroCliente = F.IdCliente
+WHERE YEAR(C.DataNascita) = 1980
+  AND F.Importo > 50;
+
+
+--oppure
+
+SELECT   
+   COUNT(C.NumeroCliente) 
+        AS NumeroClienti
+FROM  Clienti AS C
+WHERE YEAR(C.DataNascita) = 1980
+AND EXISTS (SELECT *
+        FROM Fatture AS F
+        WHERE C.NumeroCliente =
+                   F. IdCliente
+            AND F.Importo > 50);
+			
+
+Estrarre una colonna di nome “Denominazione” contenente il nome, seguito da un carattere “-“, seguito dal cognome, per i soli clienti residenti nella regione Lombardia
+
+SELECT CONCAT(Nome,
+              '-',
+              Cognome) 
+         AS Denominazione
+FROM   Clienti
+WHERE  RegioneResidenza 
+         = 'Lombardia';  
+ --su Oracle scriverei 
+--UPPER(Regione) = 'LOMBARDIA';

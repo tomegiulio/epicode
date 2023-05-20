@@ -1,0 +1,3 @@
+<app-post-card *ngFor="let post of posts" [p]="post" (eliminaEvent)="elimina(post.id)">
+    <button class="btn btn-success" (click)="attiva(post.id)">Attiva</button>
+</app-post-card>

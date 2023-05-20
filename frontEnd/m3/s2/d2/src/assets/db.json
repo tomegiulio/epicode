@@ -1,0 +1,49 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "title": "lorem lorem",
+      "content": "lorem lorem lorem lorem lorem lorem lorem",
+      "active": true
+    },
+    {
+      "id": 2,
+      "title": "lorem lorem",
+      "content": "lorem lorem lorem lorem lorem lorem lorem",
+      "active": false
+    },
+    {
+      "id": 3,
+      "title": "lorem lorem",
+      "content": "lorem lorem lorem lorem lorem lorem lorem",
+      "active": true
+    },
+    {
+      "id": 4,
+      "title": "lorem lorem",
+      "content": "lorem lorem lorem lorem lorem lorem lorem",
+      "active": false
+    },
+    {
+      "id": 5,
+      "title": "lorem lorem",
+      "content": "lorem lorem lorem lorem lorem lorem lorem",
+      "active": true
+    },
+    {
+      "id": 6,
+      "title": "lorem lorem",
+      "content": "lorem lorem lorem lorem lorem lorem lorem",
+      "active": true
+    },
+    {
+      "id": 7,
+      "title": "lorem lorem",
+      "content": "lorem lorem lorem lorem lorem lorem lorem",
+      "active": false
+    }
+
+
+
+  ]
+}

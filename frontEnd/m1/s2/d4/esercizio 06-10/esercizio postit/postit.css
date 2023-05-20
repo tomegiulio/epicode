@@ -1,0 +1,136 @@
+body{font-size:25px;
+    font-family: 'Indie Flower', cursive;
+    background-color: cyan;
+    src: url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap";);
+    
+
+}
+
+.big{display: flex;
+flex-wrap: wrap;
+margin: 40px;}
+
+.container1{display:flex;
+    justify-content: space-around;
+    text-align:center;
+    width: 100%;
+    margin-top: px;}
+
+.container1 div{border: 1px solid black;
+margin: 10px;
+width: 25%;}
+
+.container1 h1{
+margin:10px;
+font-weight: bold;
+padding: 35px;
+margin-top: 50px;}
+
+.container1 p{padding: 10px;
+padding: 50px;
+margin-bottom: 50px;}
+
+.container2{display:flex;
+    justify-content: space-around;
+    text-align:center;
+    width: 100%;
+    margin-top: px;}
+        
+.container2 div{border: 1px solid black;
+margin: 10px; 
+width: 25%;}
+        
+.container2 h1{
+    margin:10px;
+    font-weight: bold;
+    padding: 35px;
+    margin-top: 50px;}
+
+.container2 p{padding: 10px;
+    padding: 50px;
+    margin-bottom: 50px;}
+
+/*postit*/
+
+#postit1, #postit5, #postit7{ background-color:darkkhaki;
+    rotate: 4deg;}
+
+#postit2, #postit4, #postit8{ background-color:aquamarine;
+    rotate: -3deg;}
+
+#postit3, #postit6 { background-color:mediumorchid;
+    rotate: 5deg;}
+
+#postit1{rotate: -2deg;}
+
+.container1 div{box-shadow: 1px 1px;}
+
+.container2 div{box-shadow: 1px 1px;}
+
+#postit3{rotate: 5deg;
+scale: 1.1 1.1;
+z-index: 150;}
+
+#postit6{z-index: 200;}
+
+.container1 div:hover {
+    transform: scale(1.3);
+    box-shadow: 5px 5px 3px;
+    z-index: 10;
+    cursor: pointer;
+    z-index: 1000000;
+  }
+
+.container2 div:hover {
+    transform: scale(1.3);
+    box-shadow: 5px 5px 3px;
+    z-index: 10;
+    cursor: pointer;
+    z-index: 1000000;
+  }
+
+
+
+/*animazioni*/
+@keyframes changeColor{0%{background-color: aquamarine;}
+                 10%{background-color: blueviolet;}
+                 20%{background-color:brown}
+                 30%{cbackground-olor: burlywood;}
+                 40%{background-color: peru;}
+                 50%{background-color:coral}
+                 60%{background-color:purple}
+                 70%{background-color: darkgrey;}
+                 80%{background-color: red;}
+                 90%{background-color: yellow;}
+                 100%{background-color: black;
+                 color: aliceblue;}}
+
+#postit2{animation-name:changeColor;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        animation: changeColor 6s infinite 0s;}
+
+@keyframes changeShadow{0% {box-shadow: 0px 0px 0px 0px;}
+                        25%{box-shadow: 0px 0px 6px 6px;}
+                        50%{box-shadow: 0px 0px 9px 9px;}
+                        75%{box-shadow: 0px 0px 12px 12px;}
+                        100%{box-shadow: 0px 0px 15px 15px;}}
+
+#postit5{ animation-name:changeShadow;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-delay: 0s;}
+
+@keyframes rotate{0%{rotate: 0deg;}
+                   20%{rotate: 45deg;}
+                   40%{rotate: 90deg;}
+                   60%{rotate: 135deg;}
+                   80%{rotate: 200deg;}
+                   100%{rotate: 360deg}}
+
+#postit6{ animation-name:rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;}
+

@@ -1,0 +1,11 @@
+<div class="card">
+    <h5 class="card-header"><span appColora>{{p.id}}</span></h5>
+    <div class="card-body">
+        <h5 class="card-title">{{p.title | maiuscolo}}</h5>
+        <p class="card-text">{{p.body}}</p>
+    </div>
+    <ng-content></ng-content>
+
+    <button class="btn btn-danger" (click)="elimina()">Elimina</button>
+    <button routerLink='/dettaglio/{{p.id}}' routerLinkActive="active"  [routerLinkActiveOptions]="{exact: true}" class="btn btn-primary">dettaglio</button>
+</div>
